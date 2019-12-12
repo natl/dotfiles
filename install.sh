@@ -15,8 +15,8 @@ usage() {
 dotfiles() {
     # Git settings
     git config --global core.excludesfile ~/.cvsignore
-    git config --global user.name "unique-pear486"
-    git config --global user.email "unique-pear486@users.noreply.github.com"
+    git config --global user.name "natl"
+    git config --global user.email "natl@users.noreply.github.com"
     git config --global push.default simple
     git config --global alias.hist '!tput rmam; git log --graph --full-history --all --pretty=format:"%Cred%h%Creset %ad %<(40,trunc) %s %C(yellow)%d%Creset %C(bold blue)<%an>%Creset" --date=short; tput smam'
     git config --global alias.co checkout
